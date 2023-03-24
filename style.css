@@ -1,0 +1,198 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+    padding:10px;
+    background-color: #000;
+    margin:0;
+
+}
+.logo{
+    color:#fff;
+}
+.logo h2{
+    margin-top:10px;
+}
+.menu-item{
+    display:inline-block;
+    padding-right:30px;
+    color:#fff;
+}
+.menu-item a{
+    color:#fff;
+    text-decoration:none;
+}
+.portfolioContainer{
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+}
+.portfolioHeading{
+    text-align:center;
+    font-size:45px;
+}
+.item{
+    /* background-color:red; */
+    margin:1px;
+    padding:10px;
+}
+
+.inputField{
+    border:1px solid black;
+    margin:10px;
+    padding:8px;
+    border-radius:10px;
+}
+
+.contactContainer{
+    display:flex;
+    margin-top:80px;
+}
+
+.contactInfo{
+    margin-left:140px;
+    width:50%;
+}
+.contactHeading{
+    font-size:45px;
+    text-align:center;
+}
+.contactSubtitle{
+    margin-top:-30px;
+    font-size:18px;
+    text-align: center;
+}
+.contactButton{
+    background-color: red;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    color:#fff;
+    width:100px;
+}
+.btnPara{
+    text-align: center;
+}
+
+.homeSection{
+
+    display:flex;
+    align-items: center;
+    margin-top:30px;
+}
+
+.leftSide{
+    margin-left:250px;
+    width:30%;
+}
+.rightSide{
+    width:50%;
+}
+
+
+      
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+
+
+ 
+@media screen and (max-width: 768px) {
+
+    
+    .container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    .logo {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .menu-item {
+      display: block;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    
+    .portfolioContainer {
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .item {
+      width: 45%;
+      margin: 10px;
+    }
+  
+    
+    .contactContainer {
+      flex-direction: column;
+    }
+    .contactInfo {
+      margin: 0 auto;
+      width: 80%;
+    }
+    .contactHeading {
+      font-size: 36px;
+    }
+  
+    .homeSection {
+      flex-direction: column;
+    }
+    .leftSide {
+      margin: 0 auto;
+      width: 80%;
+    }
+    .rightSide {
+      width: 80%;
+      margin-top: 20px;
+    }
+  
+  }
+  
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  
+    
+    .portfolioContainer {
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .item {
+      width: 30%;
+      margin: 10px;
+    }
+  
+  }
+  
+ 
+  @media screen and (min-width: 1200px) {
+  
+
+    .portfolioContainer {
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .item {
+      width: 20%;
+      margin: 10px;
+    }
+  
+  }
+  
